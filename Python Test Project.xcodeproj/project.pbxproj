@@ -1,0 +1,222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C90465D01E18638A0056A7CE /* keyboard_events.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = keyboard_events.py; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		C91893651E23F112006C59DD /* multiprocessing_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = multiprocessing_test.py; sourceTree = "<group>"; };
+		C94682CC1E2447C3001EDBDB /* hex_floats.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = hex_floats.py; sourceTree = "<group>"; };
+		C9480C2B1DD56D140042CBBE /* morse.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = morse.py; sourceTree = "<group>"; };
+		C94A27E71E3E70C100DD1E9D /* joystick_check.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = joystick_check.py; sourceTree = "<group>"; };
+		C950FD2A1E26DBB1007E4D16 /* live_plot_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = live_plot_test.py; sourceTree = "<group>"; };
+		C96BC11F1EB39111003DD673 /* pololu_motor_analysis.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = pololu_motor_analysis.py; sourceTree = "<group>"; };
+		C984F8E51F3D09A5009EAA5B /* async_cmd_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = async_cmd_test.py; sourceTree = "<group>"; };
+		C99A6E281E1360AD00B9937C /* video_viewer.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = video_viewer.py; sourceTree = "<group>"; };
+		C99A6E291E13665800B9937C /* line_counter.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = line_counter.py; sourceTree = "<group>"; };
+		C9B104D21E0321E2003E8AA1 /* file_manage.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = file_manage.py; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		C9CABF161B7296FA00FDE93F /* test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
+		C9EB90FC1E4AB4D60052E417 /* mp3_util.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = mp3_util.py; sourceTree = "<group>"; };
+		C9F256D71E134D940037E670 /* image_analysis.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = image_analysis.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C9CABF0B1B7296A400FDE93F = {
+			isa = PBXGroup;
+			children = (
+				C91893651E23F112006C59DD /* multiprocessing_test.py */,
+				C9CABF161B7296FA00FDE93F /* test.py */,
+				C984F8E51F3D09A5009EAA5B /* async_cmd_test.py */,
+				C96BC11F1EB39111003DD673 /* pololu_motor_analysis.py */,
+				C94A27E71E3E70C100DD1E9D /* joystick_check.py */,
+				C950FD2A1E26DBB1007E4D16 /* live_plot_test.py */,
+				C94682CC1E2447C3001EDBDB /* hex_floats.py */,
+				C90465D01E18638A0056A7CE /* keyboard_events.py */,
+				C99A6E291E13665800B9937C /* line_counter.py */,
+				C99A6E281E1360AD00B9937C /* video_viewer.py */,
+				C9F256D71E134D940037E670 /* image_analysis.py */,
+				C9B104D21E0321E2003E8AA1 /* file_manage.py */,
+				C9EB90FC1E4AB4D60052E417 /* mp3_util.py */,
+				C9480C2B1DD56D140042CBBE /* morse.py */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C9CABF101B7296A400FDE93F /* Python Test Project */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = C9CABF131B7296A400FDE93F /* Build configuration list for PBXLegacyTarget "Python Test Project" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/python3;
+			buildWorkingDirectory = "/Users/Woz4tetra/Google Drive/Projects/Python Test Project";
+			dependencies = (
+			);
+			name = "Python Test Project";
+			passBuildSettingsInEnvironment = 0;
+			productName = "Python Test Project";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		C9CABF0C1B7296A400FDE93F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "The Ban Hammer";
+				TargetAttributes = {
+					C9CABF101B7296A400FDE93F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = C9CABF0F1B7296A400FDE93F /* Build configuration list for PBXProject "Python Test Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9CABF0B1B7296A400FDE93F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9CABF101B7296A400FDE93F /* Python Test Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C9CABF111B7296A400FDE93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9CABF121B7296A400FDE93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9CABF141B7296A400FDE93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9CABF151B7296A400FDE93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9CABF0F1B7296A400FDE93F /* Build configuration list for PBXProject "Python Test Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CABF111B7296A400FDE93F /* Debug */,
+				C9CABF121B7296A400FDE93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CABF131B7296A400FDE93F /* Build configuration list for PBXLegacyTarget "Python Test Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CABF141B7296A400FDE93F /* Debug */,
+				C9CABF151B7296A400FDE93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9CABF0C1B7296A400FDE93F /* Project object */;
+}
